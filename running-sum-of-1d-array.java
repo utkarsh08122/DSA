@@ -1,4 +1,4 @@
-class Solution {
+class runningSum {
     public int[] runningSum(int[] nums) {
 
         int count = 0;

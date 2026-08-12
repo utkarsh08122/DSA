@@ -1,6 +1,6 @@
-import java.util.*;
 
-class Solution {
+
+class maximumWealth {
     public int maximumWealth(int[][] accounts) {
 
         int max = 0;

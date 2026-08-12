@@ -1,4 +1,4 @@
-class Solution {
+class findNumbers {
     public static void findNumbers(String[] args) {
 
         int[] nums = { 555, 901, 482, 1771 };
