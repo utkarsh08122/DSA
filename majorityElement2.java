@@ -11,14 +11,12 @@ class majorityElement2 {
         }
 
         ArrayList<Integer> result = new ArrayList<>();
-        
-        
-             for (int i : map.keySet()) {
+
+        for (int i : map.keySet()) {
             if (map.get(i) > count / 3) {
                 result.add(i);
             }
         }
-
 
         return result;
     }
