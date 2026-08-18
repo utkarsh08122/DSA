@@ -11,7 +11,7 @@ class intersect {
             set.put(nums1[i], set.getOrDefault(nums1[i], 0) + 1);
 
         }
-        int[] arr = new int[set.size()];
+        int[] arr = new int[nums2.length];
         for (int i = 0; i < nums2.length; i++) {
             if (set.containsKey(nums2[i])) {
                 if (set.get(nums2[i]) > 0) {
