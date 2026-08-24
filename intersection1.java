@@ -1,6 +1,6 @@
 import java.util.*;
 
-class intersection {
+class intersection1 {
     public List<Integer> intersection(int[][] nums) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
