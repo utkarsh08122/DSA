@@ -1,6 +1,3 @@
-
-
-
 class longestNiceSubstring {
     public String longestNiceSubstring(String s) {
         if (s.length() < 2) {
